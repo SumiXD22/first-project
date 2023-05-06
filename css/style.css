@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+  margin: 0 auto;
+}
+.nav_logo {
+  color: white;
+  font-size: 2.5em;
+}
+.nav_navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  line-height: 2.5em;
+}
+.nav_navbar a {
+  color: white;
+  transition: 0.3s all linear;
+}
+.nav_navbar a:hover {
+  color: tomato;
+}
+
+.container {
+  width: 87%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .col {
+  width: 30%;
+  height: 250px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
